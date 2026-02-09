@@ -1,14 +1,15 @@
 fun main() {
 /*
-* all variable types in kotlin are not nullable by default in kotlin.but by placing a question mare we can make
+* all variable types in kotlin are not nullable by default in kotlin.but by placing a question mark(?) we can make
 it nullable.
 
-* the initial variable must always be null in order to find length if it is declared nullable.or else similar
+* the initial variable must always be null during first value assignment in order to find length if it is declared nullable.or else similar
 error will appear "Kotlin: Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type 'String?'."
 
-* or else you can use if condition if (variableName != null) { print(variableName.length) }
+* or else you can use if condition if (variableName != null) { println(variableName.length) }
 
 * or shortcut print(variableName?.length) - it is known as safe call operator
+
 Safe call operator
 The safe call operator ?. allows you to handle nullability safely in a shorter form. Instead of throwing an NPE,
 if the object is null, the ?. operator simply returns null.
