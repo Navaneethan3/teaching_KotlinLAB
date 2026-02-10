@@ -1,7 +1,8 @@
-fun main() {/*
+fun main() {
+   /*
     * you can call a function multiple times.
      */
-    sayHello("max", 22) //input
+    sayHello("max", 22) //input of a function
 
     //using function with if else
     val internetConnection = true
@@ -50,7 +51,7 @@ fun maxValue(a: Int, b: Int): Int {
 
 }
 
-// shor cut for function with single expression.
+// shorcut for function with single expression.
 fun maxValue2(a: Int, b: Int) = if (a > b) a else b
 
 // Parameters with default values.
